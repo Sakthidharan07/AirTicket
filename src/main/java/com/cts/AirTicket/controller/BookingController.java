@@ -29,7 +29,7 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/api/bookings")
 @Validated
-public class BookingController {
+public class BookingController { // This is booking controller
     @Autowired
     private BookingService bookingService;
 
